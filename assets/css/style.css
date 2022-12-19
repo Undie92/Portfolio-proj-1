@@ -1,4 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #252525;
+}
+
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: peachpuff;
+}
+
+
+
+/* headings and logo */
+
+h1,h2 {
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    text-transform: uppercase; 
+
+}
+
+#logo {
+    text-align: center;
+    font-size: 80px;
+}
+
+header {
+    background-color: #A28F9D;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* navigation links */
+
+
+
+#topbar {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 36px;
+}
+
+#topbar li {
+    float: left;
+    padding: 20px;
+}
+
+.centerbar {
+    width:100%;
+    text-align: center;
+}
+
+.dropbtn {
+    float: left;
+    margin-right: 30px;
+    margin-top: 60px;
+    margin-left: 5px;
+    font-size: 25px;
+    background-color: #A28F9D;
+}
+
+.dropdown {
+  font-family: Arial;
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+}
+
+.dropdown a {
+    float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* Footer and Socials */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
 }
