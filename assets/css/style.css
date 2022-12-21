@@ -122,3 +122,30 @@ nav{
     font-size: 60px;
     text-transform: uppercase;
 }
+
+.product-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+.col4 {
+    flex-basis: 25%;
+    min-width: 200px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.col4 img {
+    width: 17.5%;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+}
