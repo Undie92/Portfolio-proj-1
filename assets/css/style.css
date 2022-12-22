@@ -198,3 +198,16 @@ h4{
 .col4:hover {
     transform: translateY(-5px);
 }
+
+/* Images for Gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 5;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
