@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/304b0a1803.js" crossorigin="anonymous"></script>
+    <title>R.H Art | Order</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">R.H  Art</h1>
+        </a>
+        <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="index.html" id="home">Home</a></li>
+                <li><a href="products.html" id="products">Products</a></li>
+                <li><a href="gallery.html" id="gallery">Gallery</a></li>
+                <li><a href="about.html" id="about">About</a></li>
+                <li><a href="order.html" class="active" id="order">Order</a></li>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <section class="form-section">
+        <form method="GET" action="complete.html" class="place-order">
+            <h2>Fill in your details of the order.</h2>
+            <label for="fname">First Name:</label>
+            <input id="fname" type="text" class="text-input" name="first_name" required>
+
+            <label for="lname">Last Name:</label>
+            <input id="lname" type="text" class="text-input" name="last_name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" class="text-input" name="email_address" required>
+
+            <label for="address">Street Address:</label>
+            <input type="text" id="address" class="text-input" name="street_address" required>
+
+            <label for="zipcode">Zip code:</label>
+            <input type="text" id="zipcode" class="text-input" name="zip_code" pattern="[0-9]*" required>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" class="text-input" name="city" required>
+
+            <label for="product">What product do you want?</label>
+            <select name="product" id="product" required>
+                <option value="20x30">20x30cm Frame</option>
+                <option value="50x70">50x70cm Frame</option>
+                <option value="70x100">70x100cm Frame</option>
+                <option value="60x60">60x60cm Canvas</option>
+                <option value="poster">Poster</option>
+            </select>
+            <label for="description">Describe your custom motive.</label>
+            <textarea id="description" name="description" class="describe" placeholder="I want you to briefly explain the motive you want me to paint for you here." required></textarea>
+
+            <input class="order-button" type="submit" value="Place your order">
+        </form>
+    </section>
+
+
+
+    <footer id="footer">
+        <div class="social-networks">
+        <ul class="socials">
+            <li>
+                <a href="https://www.instagram.com/bexxish/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li id="tiktok">
+                <a href="https://www.tiktok.com/@bexxish" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </li>
+
+        </ul>
+    </div>
+    <div>
+        <p class="copyright">Copyright © Rebecka Hellström 2022</p>
+    </div>
+    </footer>
+    
+</body>
+</html>
