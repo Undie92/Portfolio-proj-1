@@ -19,12 +19,14 @@ body {
 /* headings and logo */
 #logo {
     text-align: center;
-    font-size: 80px;
+    font-size: 70px;
     text-transform: uppercase;
+    
 }
 
 header {
     background: radial-gradient(#fff,#ffd6d6);
+
 }
 
 a {
@@ -39,6 +41,7 @@ a {
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    max-width: 1080px;
 }
 
 nav{
@@ -107,11 +110,12 @@ nav{
     flex-basis: 30%;
     min-width: 250px;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
 }
 
 .col3 img {
     width: 33%;
-    display:inline-block;
 }
 
 .small-container {
@@ -143,8 +147,9 @@ nav{
     display:flex;
     justify-content: space-between;
     padding: 40px;
-    width: 60%;
+    width: 100%;
     margin: 4rem auto 0 auto;
+    max-width: 1080px;
 }
 
 .section img {
@@ -154,7 +159,6 @@ nav{
 }
 
 .img-text {
-    display:block;
     list-style: none;
     border-style: groove;
     border-width: 2px;
@@ -170,3 +174,33 @@ nav{
 }
 
 
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width: 850px) {
+    #photos {
+        column-count: 2;
+    }
+
+}
+
+
+/* For smaller screens size from 600 and down */
+
+@media screen and (max-width: 600px) {
+
+    #logo {
+        width: 100%;
+        font-size: 20vw;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .copyright {
+        font-size: 4vw;
+    }
+
+}
