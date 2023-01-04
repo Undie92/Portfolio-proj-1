@@ -6,7 +6,7 @@ R.H Art is offering custom made art drawings to anyone who contacts the owner.
 Visitors of the website are offered a custom made drawing if they would like to have one, visitors 
 can also watch the owners previous work of arts in the form of a gallery.
 
-![Is my site responsive?](assets/images/image.png)
+![Is my site responsive?](assets/images/responsiveness.png)
 
 ## Features
 
@@ -15,7 +15,7 @@ can also watch the owners previous work of arts in the form of a gallery.
   * At the top center of the website is a home link, to always be able to go back to home by pressing R.H Art logo.
   * Below the logo, there is a navigation bar, taking the user to either Home, Gallery or About me page. The navigation links are identical in each page to allow easy navigation.
 
-![Navigation bar](assets/images/nav%20bar.png)
+![Navigation bar](assets/images/header.png)
 
 * The landing page images
   
@@ -53,6 +53,13 @@ can also watch the owners previous work of arts in the form of a gallery.
 
 ![About](assets/images/about.png)
 
+
+* Contact
+
+  * The contact section allows the user to contact the owner to send a request or ideas.
+
+![Contact](assets/images/contact.png)
+
 # Testing
 
   * I tested that this page works in different browsers: Chrome, Safari, Firefox
@@ -81,6 +88,9 @@ can also watch the owners previous work of arts in the form of a gallery.
 ![Accessibility gallery](assets/images/accessibility-gallery.png)
 
 ![Accessibility about](assets/images/accessibility-about.png)
+
+![Accessibility contact](assets/images/accessibility-contact.png)
+
 
   ## Unfixed bugs
   No unfixed bugs
