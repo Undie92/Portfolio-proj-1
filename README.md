@@ -1,108 +1,98 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# R.H Art
 
-Welcome Undie92,
+R.H Art is a landing website for art enjoyers looking for art and drawings.
+R.H Art is offering custom made art drawings to anyone who contacts the owner.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Visitors of the website are offered a custom made drawing if they would like to have one, visitors 
+can also watch the owners previous work of arts in the form of a gallery.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Is my site responsive?](assets/images/image.png)
 
-## Gitpod Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* Navigation
 
-`python3 -m http.server`
+  * At the top center of the website is a home link, to always be able to go back to home by pressing R.H Art logo.
+  * Below the logo, there is a navigation bar, taking the user to either Home, Gallery or About me page. The navigation links are identical in each page to allow easy navigation.
 
-A blue button should appear to click: _Make Public_,
+![Navigation bar](assets/images/nav%20bar.png)
 
-Another blue button should appear to click: _Open Browser_.
+* The landing page images
+  
+  * The landing includes some pictures of the owners drawings.
+  * The drawings introduces the user very quickly to what kind of website they are visiting.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Drawings](assets/images/drawings.png)
 
-A blue button should appear to click: _Make Public_,
+* Website information section
 
-Another blue button should appear to click: _Open Browser_.
+  * This section contains a welcome message.
+  * This text describes what the owner wants the users to know about the website
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Website info](assets/images/website-info.png)
 
-To log into the Heroku toolbelt CLI:
+* The Footer
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  * The footer section includes links to the owners social medias for easy access.
+  * The footer is valuable to the user encourages them to keep track of newly posted drawings and art projects.
+  * The footer contains copyright section, as the drawings belong to the owner of the website.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Website footer](assets/images/footer.png)
 
-------
+* Gallery
+  * The gallery will show what kind of drawings the owner has made.
+  * The gallery section is valuable to the user to determine wether they like what they see or not.
+  * The gallery will be updated with newly made art projects as they are done.
 
-## Release History
+![Gallery](assets/images/gallery.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* About me
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  * The about section will give the user info about the website owner.
+  * The about section is valuable for the user to quickly get a little knowledge about the owner.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![About](assets/images/about.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+# Testing
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  * I tested that this page works in different browsers: Chrome, Safari, Firefox
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+  * I confirmed that this project is responsive, it's looking good on all standard screen sizes using devtools device toolbar.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  * I confirmed that the navigation, header, about me and the gallery, text are all readable and easy to understand.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+  * I have confirmed that the form works /*/
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+  ## Bugs
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  * I have not had any problems with bugs as i have been validating the code all along the project.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  ## Validator Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+  * HTML
+    * No errors were returned when passing through the official W3C validator.
+  * CSS
+    * No errors were found when passing through the official (Jigsaw) validator.
+  * Accessibility
+    * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![Accessibility index](assets/images/accessibility-index.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Accessibility gallery](assets/images/accessibility-gallery.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Accessibility about](assets/images/accessibility-about.png)
 
-------
+  ## Unfixed bugs
+  No unfixed bugs
 
-## FAQ about the uptime script
+# Deployment
 
-**Why have you added this script?**
+  * The site was deployed to GitHub pages.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+The live link can be found here - [R.H Art](https://undie92.github.io/Portfolio-proj-1/index.html)
 
-**How will this affect me?**
+# Credits
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Content
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+ * The code to make the gallery was taken from the CI [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) Project.
