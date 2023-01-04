@@ -186,11 +186,44 @@ nav{
     margin-top: 40px;
 }
 
+
+.logo3 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
 .text2 {
     font-size: 18px;
     text-align: center;
 }
 
+.form-div {
+    display: block;
+}
+
+.form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    
+}
+
+.form-section {
+    border: 2px solid black;
+    border-radius:4px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.submit {
+    background-color: black;
+    color: white;
+    padding: 15px 32px 15px 32px;
+}
 
 /* Media queries */
 
