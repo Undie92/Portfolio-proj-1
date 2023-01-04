@@ -163,15 +163,14 @@ nav{
    
 }
 
-.img-text {
-    list-style: none;
-}
 
-.img-text li {
+
+.img-text ul {
     border-style: groove;
     border-width: 2px;
     border-color: black;
     box-sizing:border-box;
+    list-style: none;
 }
 
 .logo {
