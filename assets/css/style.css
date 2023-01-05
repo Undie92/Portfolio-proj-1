@@ -111,11 +111,11 @@ nav{
     min-width: 250px;
     margin-bottom: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .col3 img {
-    width: 33%;
+    width: 100%;
 }
 
 .small-container {
