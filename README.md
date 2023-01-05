@@ -6,7 +6,7 @@ R.H Art is offering custom made art drawings to anyone who contacts the owner.
 Visitors of the website are offered a custom made drawing if they would like to have one, visitors 
 can also watch the owners previous work of arts in the form of a gallery.
 
-![Is my site responsive?](assets/images/responsiveness.png)
+![Is my site responsive?](assets/images/response.png)
 
 ## Features
 
@@ -15,21 +15,22 @@ can also watch the owners previous work of arts in the form of a gallery.
   * At the top center of the website is a home link, to always be able to go back to home by pressing R.H Art logo.
   * Below the logo, there is a navigation bar, taking the user to either Home, Gallery or About me page. The navigation links are identical in each page to allow easy navigation.
 
-![Navigation bar](assets/images/header.png)
+![Navigation bar](assets/images/header2.png)
 
 * The landing page images
   
   * The landing includes some pictures of the owners drawings.
+  * The landing includes description about the drawings.
   * The drawings introduces the user very quickly to what kind of website they are visiting.
 
-![Drawings](assets/images/drawings.png)
+![Drawings](assets/images/landing.png)
 
 * Website information section
 
-  * This section contains a welcome message.
-  * This text describes what the owner wants the users to know about the website
+  * This section contains directions to where you find social medias.
+  * This text describes what the owner wants the users to know about the website.
 
-![Website info](assets/images/website-info.png)
+![Website info](assets/images/social.png)
 
 * The Footer
 
@@ -52,7 +53,7 @@ can also watch the owners previous work of arts in the form of a gallery.
   * The about section is valuable for the user to quickly get a little knowledge about the owner.
   * The contact form allows the user to contact the owner to send a request or ideas.
 
-![About](assets/images/about.png)
+![About](assets/images/aboutcontact.png)
 
 
 # Testing
@@ -63,7 +64,7 @@ can also watch the owners previous work of arts in the form of a gallery.
 
   * I confirmed that the navigation, header, about me and the gallery, text are all readable and easy to understand.
 
-  * I have confirmed that the form works /*/
+  * I have confirmed that the form works and gives a response message to the user.
 
   ## Bugs
 
@@ -78,11 +79,11 @@ can also watch the owners previous work of arts in the form of a gallery.
   * Accessibility
     * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
-![Accessibility index](assets/images/accessibility-index.png)
+![Accessibility index](assets/images/accesshome.png)
 
 ![Accessibility gallery](assets/images/accessibility-gallery.png)
 
-![Accessibility about](assets/images/accessibility-about.png)
+![Accessibility about](assets/images/acessabout.png)
 
 
 
