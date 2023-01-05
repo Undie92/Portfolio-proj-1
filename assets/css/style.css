@@ -286,6 +286,10 @@ nav{
         max-width:200px;
     }
 
+    .form {
+        margin: 0 0 0 0;
+    }
+
     #message {
         max-width: 150px;
     }
