@@ -23,7 +23,7 @@ can also watch the owners previous work of arts in the form of a gallery.
   * The landing includes description about the drawings.
   * The drawings introduces the user very quickly to what kind of website they are visiting.
 
-![Drawings](assets/images/landing.png)
+![Drawings](assets/images/landing2.png)
 
 * Website information section
 
