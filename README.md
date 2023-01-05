@@ -50,15 +50,10 @@ can also watch the owners previous work of arts in the form of a gallery.
 
   * The about section will give the user info about the website owner.
   * The about section is valuable for the user to quickly get a little knowledge about the owner.
+  * The contact form allows the user to contact the owner to send a request or ideas.
 
 ![About](assets/images/about.png)
 
-
-* Contact
-
-  * The contact section allows the user to contact the owner to send a request or ideas.
-
-![Contact](assets/images/contact.png)
 
 # Testing
 
@@ -89,7 +84,6 @@ can also watch the owners previous work of arts in the form of a gallery.
 
 ![Accessibility about](assets/images/accessibility-about.png)
 
-![Accessibility contact](assets/images/accessibility-contact.png)
 
 
   ## Unfixed bugs
