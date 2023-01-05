@@ -263,8 +263,9 @@ nav{
         justify-content: space-between;
     }
     .section img {
-        height: 1200px;
-        width: 1000px;
+        height: 750px;
+        width: 800px;
+        margin-left: 10%;
     }
 
 }
