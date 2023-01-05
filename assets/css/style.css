@@ -103,6 +103,10 @@ nav{
     margin: 70px 0;
 }
 
+.frontpage h2 {
+    text-align:center;
+}
+
 .welcome {
     text-align: center;
     font-size: 50px;
